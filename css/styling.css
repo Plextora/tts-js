@@ -1,0 +1,18 @@
+html {
+  height: 100%;
+  display: flex;
+}
+
+body {
+  margin: auto;
+  font-family: "Lucida Console", "Courier New", monospace;
+  background: #181620;
+  perspective: 500px;
+  color: #b09e99;
+
+}
+  #text {
+    width: 100%;
+    height: 50vh;
+    background-color: antiquewhite;
+  }

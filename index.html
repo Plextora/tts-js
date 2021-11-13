@@ -4,16 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>TTS-JS</title>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>Text to Speech</title>
+  <link rel="stylesheet" type="text/css" href="css/styling.css">
   <script src="js/app.js" defer></script>
 </head>
 <body>
   <textarea id="text"></textarea>
   <label for="speed">Speed</label>
-  <input type="number" name="spee" id="speed" min=".5" max="3" step=".5" value="1">
+  <input type="number" name="speed" id="speed" min=".5" max="3" step=".1" value="1">
+  <label for="pitch">Pitch</label>
+  <input type="number" name="pitch" id="pitch" min=".5" max="3" step=".1" value="1">
   <button id="play-button">Play</button>
-  <button id="pause-button">Pause</button>
   <button id="stop-button">Stop</button>
 </body>
 </html>
